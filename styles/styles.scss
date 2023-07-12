@@ -52,7 +52,7 @@ section{
 }
 
 .section{
-    transform: translateY(-100%);
+    transform: translateY(-100%) scale(0);
     transition: all .4s ease-in-out;
     background-color: var(--color-primary);
 }
@@ -95,18 +95,13 @@ section{
     transform: translateY(-50%);
     .control{
         padding: 1rem;
-        cursor: pointer;
+        cursor: pointer;    
         background-color: var(--color-grey-4);
-        width: 100px;
+        width: 55px;
         height: 55px;
+        border-radius: 50%;
         display: flex;
         justify-content: center;
         align-items: center;
-        margin: .3rem;
-        box-shadow:var(--box-shadow-1);
-        font-size: 1.2rem;
-        color: var(--color-grey-2);
-        pointer-events: none;
-        
     }
 }
